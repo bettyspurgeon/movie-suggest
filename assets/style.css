@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+/* Header styling */
+header {
+    /* Header color properties */
+    background-color: #F93B2F;
+    color: #ffffff;
+    height: 4rem;
+
+}
+h1.logo-text {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.movie-summary > h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-link.active {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+}
+div.movie-container {
+    width: 90%;
+    padding-bottom: 12rem;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.movie-card > * {
+    margin-top: 2rem;
+}
+img.movie-image {
+    width: 100%;
+}
+
+
+
+button.back-btn {
+    background-color: #F93B2F;
+    color: #ffffff;
+    align-self: flex-start;
+    font-size: 1.25rem;
+    
+}
+.movie-summary p {
+    color: #847b7b;
+}
+button.social-link {
+    background-color: white;
+    margin-right: 1rem;
+    border-radius: 3rem;
+    color: #F93B2F;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 2rem;
+}
+.legal-container > h4 {
+    font-size:1rem;
+    font-weight: 400;
+}
+
+.legal-container > a {
+    color: #F93B2F;
+}
+
+.social-icons {
+    padding: 1rem;
+}
+
+.social-icons > a {
+    padding: 0 1rem;
+}
+
+@media  only screen and (min-width: 780px) {
+    body {
+        height: 100vh;
+    }
+
+    header{
+        height: 3rem;
+    }
+    div.movie-container {
+        width: 65%;
+        padding-bottom: 4rem;
+    
+    }
+    div.movie-card {
+        display: flex;
+        flex-direction: row;
+    
+    
+    }
+    .movie-summary {
+        padding-left: 2rem;
+    }
+
+    footer.legal-icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .legal-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

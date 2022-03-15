@@ -56,8 +56,14 @@
      
       
       }
-     
-
+     /* Add stlying to Nightcrawler header for link */
+      a > h4 {
+          color: black;
+    
+      }
+      a.nightcrawler-link {
+          text-decoration: none;
+      }
   .movie-card {
       border: 1px solid #fff;
       width: 100%;

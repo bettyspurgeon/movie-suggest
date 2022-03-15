@@ -50,11 +50,13 @@ div.movie-container {
 img.movie-image {
     width: 100%;
 }
+.return-home {
+    align-self: flex-start;
+}
 
 button.back-btn {
     background-color: #F93B2F;
-    color: #ffffff;
-    align-self: flex-start;
+    color: #ffffff; 
     font-size: 1.25rem;
     
 }
